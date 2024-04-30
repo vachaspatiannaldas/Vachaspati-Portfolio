@@ -112,6 +112,7 @@ export const techStackDetails = {
   laravel:laravel,
 };
 
+// This is Project Section
 export const projectDetails = [
   {
     title: "TrendSays",
