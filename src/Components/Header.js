@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
-import { resumeDetails } from "../Details";
+// import { resumeDetails } from "../Details";
 function Header() {
-  const {resume} = resumeDetails;
+  // const {resume} = resumeDetails;
   const [isOpen, setIsOpen] = useState(false);
   const { linkdein, github, twitter } = socialMediaUrl;
   const toggleClass = () => {
@@ -65,9 +65,9 @@ function Header() {
               Contact
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <a href={resume} class="button1" download="Vachaspati_Annaldas_Resume"><i class="fa fa-download"></i>Download Resume</a>
-          </li>
+          </li> */}
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           {/* <li>

@@ -39,9 +39,9 @@ import resume from "./assets/Vachaspati_Annaldas_Resume.pdf";
 
 export const personalDetails = {
   name: "Vachaspati Annaldas",
-  tagline: "Junior Full Stack Developer",
+  tagline: "Full Stack Developer",
   img: profile,
-  about: `As a Junior Full Stack Web Developer, I have a strong foundation in a range of technologies. My expertise spans from front-end development to back-end programming. One of my favourite technologies to work with is React.js, particularly within the MERN stack.
+  about: `As a Full Stack Web Developer, I have a strong foundation in a range of technologies. My expertise spans from front-end development to back-end programming. One of my favourite technologies to work with is React.js, particularly within the MERN stack.
   Eager to collaborate and explore exciting opportunities in the world of web development. #FullStack #WebDevelopment #ReactJS #NodeJS #ExpressJS #MongoDB`,
 };
 
@@ -72,18 +72,18 @@ export const workDetails = [
 export const eduDetails = [
   {
     Position: "BTech in Computer Science Engineering ",
-    Company: "Bharat Ratna Indira Gandhi College of Engineering",
+    Company: "Dr. Babasaheb Ambedkar Technological University",
     Location: "Solapur",
     Type: "Full Time",
     Duration: "Jan 2020 - Jul 2023",
   },
-  {
-    Position: "Diploma in Computer Technology ",
-    Company: `Solapur Education Society Polytechnic`,
-    Location: "Solapur",
-    Type: "Full Time",
-    Duration: "2016 - 2019",
-  },
+  // {
+  //   Position: "Diploma in Computer Technology ",
+  //   Company: `Solapur Education Society Polytechnic`,
+  //   Location: "Solapur",
+  //   Type: "Full Time",
+  //   Duration: "2016 - 2019",
+  // },
 ];
 
 export const resumeDetails = {
